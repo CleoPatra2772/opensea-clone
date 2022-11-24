@@ -2,7 +2,7 @@
 const Hero = () => {
     return (
         <div className="relative">
-            <div className="before:content-[''] before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s250')] before:bg-cover before:bg-center before:opacity-30 before:blur">
+            <div className="before:content-[''] before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://img.seadn.io/files/cf7663584a5216a409a71c4bd3c21407.png?fit=max&w=1000')] before:bg-cover before:bg-center before:opacity-30 before:blur">
                 <div className="flex h-screen relative justify-center flex-wrap items-center">
                     <div className="w-1/2">
                         <div className="text-white relative text-[46px] font-semibold ">Discover, collect, and sell extraordinary NFTs</div>
@@ -18,22 +18,24 @@ const Hero = () => {
                 <div className="rouded-[3rem]">
                         <img
                         className="rounded-t-lg"
-                        src="https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s550"
+                        src="https://img.seadn.io/files/cf7663584a5216a409a71c4bd3c21407.png?fit=max&w=1000"
                         alt=""
+                        width={400}
+                        height={430}
                         />
                         <div className="h-20 bg-[#313338] p-4 rounded-b-lg flex items-center text-white">
                         <img
                             className="h-[2.25rem] rounded-full"
-                            src="https://i.seadn.io/gae/AEqEnzEJbGS1S9HtgHUbkSTXFPbrhG2MM8Zr0AW3DPlHjZMhM9zvYO3WRhYrLybVYfpLmzsXUvFHyu2j8Io3py-s8uK6ti67jUPYbw?auto=format&w=1000"
+                            src="https://openseauserdata.com/files/ee6d2632270fb9c06869f2a3861d91cb.svg"
                             alt=""
               />
                        
                         <div className="flex flex-col justify-center ml-4">
-                         <div className="">Jolly</div>
+                         <div className="">CCFC_Deployer</div>
                         <a
                              className="text-[#1868b7]"
-                            href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/2324922113504035910649522729980423429926362207300810036887725141691069366277"
-                            >hola-kanola </a>
+                            href="https://ccfc.coolcatsnft.com/"
+                            >COOL CATS GROUP </a>
                         </div>
                         </div>
                 </div>
