@@ -6,6 +6,7 @@ import profile from '../../assets/profile.jpeg';
 import { CgWebsite } from 'react-icons/cg'
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
 import { HiDotsVertical } from 'react-icons/hi'
+import NFTCard from "../../components/NFTCard";
 
 
 
@@ -100,7 +101,65 @@ const Collection = () => {
                                     Cool Cats FC ('Football Club') is a collection of 3,000 NFTs created by Cool Cats, Animoca Brands, and OneFootball Labs. Earn rewards and NFT upgrades for holding the best teams as they advance through the world's largest football tournament.
                                     </div>
                                 </div>
-                                <div className="flex flex-wrap">
+                                <div className="flex flex-wrap ">
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/p4ND_bcTOq2Hg2E4RHheGAU-OnJoqfuS8LN6P8OixiqRDbEXcovcO8vbrBRhXgngcACcKLgEzZBDtgPzJntVC_C3A-InicFhWCfnCA?auto=format&w=1000"
+                                    name="Brazil"
+                                    listing= "0.05 ETH"
+                                    
+                                    />
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/xPpcEZEjIgNS0X3ihoVSRepD7-gg1YC7jPv3G9dzKUoBHIVeqf-eruQpM1xJDkOCTq84hY1pj-tV0V6N8OZfVOL_zszwRsOE4hUR?auto=format&w=1000"
+                                    name="Germany"
+                                    listing= "0.029 ETH"
+                                    
+                                    />
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/039EZZjTY2UJRpSaW1lhu0cVwUJgKv3RiNum3TH0DnD4juVAe-pF1FPXXu0zXWINSS04inLvsRqMVPNvGg0ORhlGxofftzTnvHvcaA?auto=format&w=1000"
+                                    name="Portugal"
+                                    listing= "10 ETH"
+                                    
+                                    />
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/LE7Qf1CZMj77L-JlqN2WaTFjOwOMChej-cltxZOX1ZcPq_ySH54s3fvOrxhMeb-3XsYJOyCpeeA-Y7JRcQMFV5kC7pJRrk_N3u-5uA?auto=format&w=1000"
+                                    name="Spain"
+                                    listing= "2.5 ETH"
+                                    
+                                    />
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/oUEiR_jFsVZh4UE1fFJtqM6MfpibPxKau9_q_kNrHjFitSIgH0m5tx9xHdfS8pG2CwreV-jdwKpeLQxyd4mln1VlxIcIZ3vjiuMr8Q?auto=format&w=1000"
+                                    name="Brazil"
+                                    listing= "2.0 ETH"
+                                    
+                                    />
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/-m6psJvlZ2V4OYl2LCgd4AZYVbdvPuvCZ15ZhuPuopk_lv1B5-yZKoUvdeRHd4GX7IuN4MzC5nBgck5dBRuathV9FG6LCSeeOFpmdoE?auto=format&w=1000"
+                                    name="Austrailia"
+                                    listing= "1.5 ETH"
+                                    
+                                    /><NFTCard 
+                                    image="https://i.seadn.io/gae/kZv_Jaho3w8OsV6Qz8pOHoYQMiIkDssfBmFL3sIajHKUBhDE6dcE4u-lox2s_oor1z05v6Y4bvleO-jHTY7xR2hPwc3zVrmb2Z1IRg?auto=format&w=1000"
+                                    name="Costa Rica"
+                                    listing= "1.0256 ETH"
+                                    
+                                    /><NFTCard 
+                                    image="https://i.seadn.io/gae/7G6VBnWxtzNKM1KBLR9exoIdhrALhZMkH3x1zL0LOp8qRQcFTvuzwL12B48a17VaQCtsnphyF-ZjW7HnLcvXuuZQNIm6Kp8Upl4g2NM?auto=format&w=1000"
+                                    name="Saudi Arabia"
+                                    listing= "1.00 ETH"
+                                    
+                                    />
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/jy8Xo-Z2cB_89kLtU_igzRtvwPfsxjHKer2xmVhTHklu9AFbDpa7UvkxKKPhylrpZIH7SqUaMkwJdhFqg-4wUmTwiL092ScH5DdsZQ?auto=format&w=1000"
+                                    name="Ghana"
+                                    listing= "1.00 ETH"
+                                    
+                                    />
+                                    <NFTCard 
+                                    image="https://i.seadn.io/gae/QNvbm6FhWE3xgHRpdLB6QRVy0cABhfpUP7s3akWYWTFiXC2zsj32gBksMHY_im_qoX701wtBww9xzxpj7VS-jMK4dUEPHsu0MJWs?auto=format&w=1000"
+                                    name="Croatia"
+                                    listing= "0.77 ETH"
+                                    
+                                    />
                                     
                                 </div>
     </div>
